@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>prediction</title>
+<style>
+  body{
+    background-color: aquamarine;
+  }
+</style>
+</head>
+<body>
+  
+    <h1>ENTER THE DETAILS BELOW TO PREDICT A CHURN</h1>
+  <form action="/predict" method="post">
+
+
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+      <option value="f">Female</option>
+      <option value="m">male</option>
+    </select>
+    <br><br>
+
+    <label for="senior-citizen">SeniorCitizen</label>
+    <select name="senior-citizen">
+      <option value="n">no</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+
+    <label for="partner">Partner</label>
+    <select name="partner">
+      <option value="n">no</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="dependents">Dependents</label>
+    <select name="dependents">
+      <option value="n">no</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+
+    <label for="tenure">Tenure</label>
+    <input type="text" name="tenure">
+    <br><br>
+
+
+    <label for="phoneService">PhoneService</label>
+    <select name="phoneService">
+      <option value="n">no</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="multipleLines">MultipleLines</label>
+    <select name="multipleLines">
+      <option value="n">no</option>
+      <option value="nps">no phone service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+
+    <label for="internetService">InternetService</label>
+    <select name="internetService">
+      <option value="dsl">DSL</option>
+      <option value="fo">fiber optics</option>
+      <option value="n">no</option>
+    </select>
+    <br><br>
+    
+
+    <label for="onlineSecurity">OnlineSecurity</label>
+    <select name="onlineSecurity">
+      <option value="n">no</option>
+      <option value="nis">no internet service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="onlineBackup">OnlineBackup</label>
+    <select name="onlineBackup">
+      <option value="n">no</option>
+      <option value="nis">no internet service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="deviceProtection">DeviceProtection</label>
+    <select name="deviceProtection">
+      <option value="n">no</option>
+      <option value="nis">no internet service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="techSuport">TechSupport</label>
+    <select name="techSuport">
+      <option value="n">no</option>
+      <option value="nis">no internet service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+    
+    <label for="StreamingTV">StreamingTV</label>
+    <select name="StreamingTV">
+      <option value="n">no</option>
+      <option value="nis">no internet service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="streamingMovies">StreamingMovies</label>
+    <select name="streamingMovies">
+      <option value="n">no</option>
+      <option value="nis">no internet service</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="contract">Contract</label>
+    <select name="contract">
+      <option value="mtm">month to month</option>
+      <option value="oyr">one year</option>
+      <option value="tyrs">two years</option>
+    </select>
+    <br><br>
+    
+    <label for="paymentMethod">PaymentMethod</label>
+    <select name="paymentMethod">
+      <option value="ec">electronic check</option>
+      <option value="mail">mail check</option>
+      <option value="bt">bank transfer</option>
+      <option value="cc">credit card</option>
+
+
+    </select>
+    <br><br>
+
+
+    <label for="paperlessBilling">PaperlessBilling</label>
+    <select name="paperlessBilling">
+      <option value="n">no</option>
+      <option value="y">yes</option>
+    </select>
+    <br><br>
+
+    <label for="MonthlyCharges">MonthlyCharges</label>
+    <input type="text" name="MonthlyCharges">
+    <br><br>
+
+    <label for="TotalCharges">TotalCharges</label>
+    <input type="text" name="TotalCharges">
+    <br>
+    <input type="submit" value="submit">
+    <br>
+  </form>
+  
+</body>
+</html>
